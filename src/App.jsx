@@ -24,15 +24,14 @@ function App() {
       </main>
 
       <Footer />
-     // Dentro del return del Footer:
-<a
+    <a
   href="https://wa.me/15550000000" // Este es un número de prueba (EE.UU.)
   className="whatsapp-float"
   target="_blank"
   rel="noopener noreferrer"
->
-  <FaWhatsapp />
-</a>
+      >
+    <FaWhatsapp />
+    </a>
     </HashRouter>
   );
 }
